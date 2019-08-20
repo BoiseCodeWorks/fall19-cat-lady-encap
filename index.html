@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1 id="cat-name"></h1>
+  <h1 id="cat-pet-count"></h1>
+  <button onclick="app.controllers.catController.pet('cat')">Pet Cat</button>
+  <button onclick="app.controllers.catController.catnip('cat')">catnip</button>
+  <h1 id="cat2-name"></h1>
+  <h1 id="cat2-pet-count"></h1>
+  <button onclick="app.controllers.catController.pet('cat2')">Pet Cat</button>
+  <button onclick="app.controllers.catController.catnip('cat2')">catnip</button>
+
+  <h1 id="dog-name">The dog</h1>
+  <h1 id="dog-pet-count">0</h1>
+
+  <button onclick="app.controllers.dogController.pet()">Pet</button>
+  <script src="app/main.js" type="module"></script>
+</body>
+
+</html>
